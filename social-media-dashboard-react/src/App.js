@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import Followers from './components/Followers'
 import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Loading</h1>
+    <div>
+      <Followers />
     </div>
   );
 }
