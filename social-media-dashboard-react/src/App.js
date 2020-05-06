@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Followers from './components/Followers'
+import Followers from './components/FollowersCard'
 import './App.css';
 
 const App = () => {
