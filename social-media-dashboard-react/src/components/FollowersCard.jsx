@@ -2,7 +2,7 @@ import React from 'react';
 
 const Followers = () => {
   return (
-    <div>
+    <section>
       <div>
         <div>@nathanf</div>
         <div>1987 followers</div>
@@ -23,7 +23,7 @@ const Followers = () => {
         <div>8239 subscribers</div>
         <div>144 Today</div>
       </div>
-    </div>
+    </section>
   );
 };
 
