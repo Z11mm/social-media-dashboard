@@ -1,57 +1,13 @@
 import React from 'react';
 
-const OverviewCard = () => {
+const OverviewCard = ({ type, count, currentStat}) => {
   return (
-    <section>
-      <div>
-        <div>Page Views</div>
-        <div>image</div>
-        <div>87</div>
-        <div>30%</div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </section>
+    <div>
+      <div>{type}</div>
+      <div>image</div>
+      <div>{count}</div>
+      <div>{currentStat}</div>
+    </div>
   );
 }
 
