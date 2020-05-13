@@ -2,6 +2,7 @@ import React from 'react';
 
 import FollowersCard from './FollowersCard';
 import icons from '../icons';
+import { Section } from './FollowersStyles';
 
 const FollowersCardContainer = () => {
   const {
@@ -14,7 +15,7 @@ const FollowersCardContainer = () => {
   } = icons;
 
   return (
-    <section>
+    <Section>
       <FollowersCard
         handle={'@nathanf'}
         followerCount={1987}
@@ -43,7 +44,7 @@ const FollowersCardContainer = () => {
         icon={youtubeIcon}
         rateIcon={fallIcon}
       />
-    </section>
+    </Section>
   );
 };
 

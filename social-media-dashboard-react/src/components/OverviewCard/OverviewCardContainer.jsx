@@ -2,6 +2,7 @@ import React from 'react';
 import OverviewCard from './OverviewCard';
 
 import icons from '../icons';
+import { Section, OverviewCardWrapper } from './OverviewStyles';
 
 const OverviewCardContainer = () => {
   const {
@@ -14,11 +15,11 @@ const OverviewCardContainer = () => {
   } = icons;
 
   return (
-    <section>
+    <Section>
       <div>
         <h2>Overview - Today</h2>
       </div>
-      <div>
+      <OverviewCardWrapper>
         <OverviewCard
           type={'Page Views'}
           count={87}
@@ -75,8 +76,8 @@ const OverviewCardContainer = () => {
           icon={youtubeIcon}
           rateIcon={fallIcon}
         />
-      </div>
-    </section>
+      </OverviewCardWrapper>
+    </Section>
   );
 };
 
