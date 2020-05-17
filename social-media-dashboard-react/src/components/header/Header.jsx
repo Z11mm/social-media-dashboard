@@ -1,15 +1,16 @@
 import React from 'react';
 
 import Toggle from '../toggle/Toggle';
+import { HeaderBlock, Heading } from './HeaderStyles';
 
 const Header = () => (
-  <header>
-    <div>
-      <h1>Social Media Dashboard</h1>
+  <HeaderBlock>
+    <Heading>
+      <h2>Social Media Dashboard</h2>
       <p>Total Followers: 23,004</p>
-    </div>
+    </Heading>
     <Toggle />
-  </header>
+  </HeaderBlock>
 );
 
 export default Header;

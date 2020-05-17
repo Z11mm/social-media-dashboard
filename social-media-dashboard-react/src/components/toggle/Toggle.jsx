@@ -1,12 +1,17 @@
 import React from 'react';
 
+import { Label, Checkbox, Slider } from './ToggleStyles';
+
 const Toggle = () => (
   <div>
     <span>Dark Mode</span>
-    <label for='toggle-switch' class='toggle-switch' aria-label='toggle-switch'>
-      <input id='toggle-switch' type='checkbox' />
-      <span class='slider round'></span>
-    </label>
+    <Label
+      htmlFor='toggle-switch'
+      aria-label='toggle-switch'
+    >
+      <Checkbox id='toggle-switch' type='checkbox' />
+      <Slider className='slider round'></Slider>
+    </Label>
   </div>
 );
 
