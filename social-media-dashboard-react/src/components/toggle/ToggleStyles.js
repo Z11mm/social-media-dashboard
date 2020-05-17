@@ -38,7 +38,7 @@ export const Slider = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: hsl(230, 22%, 74%);
   transition: 0.4s;
 
   &::before {
