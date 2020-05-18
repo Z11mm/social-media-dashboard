@@ -22,6 +22,7 @@ const FollowersCardContainer = () => {
         currentStat={12}
         icon={facebookIcon}
         rateIcon={riseIcon}
+        color={{ borderImage: 'hsl(195, 100%, 50%)' }}
       />
       <FollowersCard
         handle={'@nathanf'}
@@ -29,6 +30,7 @@ const FollowersCardContainer = () => {
         currentStat={99}
         icon={twitterIcon}
         rateIcon={riseIcon}
+        color={{ borderImage: 'hsl(203, 89%, 53%)' }}
       />
       <FollowersCard
         handle={'@realnathanf'}
@@ -36,6 +38,7 @@ const FollowersCardContainer = () => {
         currentStat={1099}
         icon={instagramIcon}
         rateIcon={riseIcon}
+        color=''
       />
       <FollowersCard
         handle={'Nathan F.'}
@@ -43,6 +46,7 @@ const FollowersCardContainer = () => {
         currentStat={144}
         icon={youtubeIcon}
         rateIcon={fallIcon}
+        color={{ borderImage: 'hsl(348, 97%, 39%)' }}
       />
     </Section>
   );

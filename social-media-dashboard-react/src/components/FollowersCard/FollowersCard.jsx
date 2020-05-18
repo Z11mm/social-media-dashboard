@@ -1,21 +1,27 @@
 import React from 'react';
 
+import { FollowersCardWrapper, Content } from './FollowersStyles';
+
 const FollowersCard = ({
   handle,
   followerCount,
   currentStat,
   icon,
-  rateIcon
+  rateIcon,
+  color
 }) => {
   return (
-    <div>
-      <div>
+    <FollowersCardWrapper color={color.borderImage}>
+      <Content>
         <img src={icon} alt='' />
         {handle}
-      </div>
-      <div>{followerCount} followers</div>
-      <div><img src={rateIcon} alt=""/>{currentStat} Today</div>
-    </div>
+      </Content>
+      <Content>{followerCount} followers</Content>
+      <Content>
+        <img src={rateIcon} alt='' />
+        {currentStat} Today
+      </Content>
+    </FollowersCardWrapper>
   );
 };
 
