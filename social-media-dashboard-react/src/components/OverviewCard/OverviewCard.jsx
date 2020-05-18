@@ -1,13 +1,20 @@
 import React from 'react';
 
+import { OverviewCardContentWrapper } from './OverviewStyles';
+
 const OverviewCard = ({ type, count, currentStat, icon, rateIcon }) => {
   return (
-    <div>
+    <OverviewCardContentWrapper>
       <div>{type}</div>
-      <div><img src={icon} alt=""/></div>
+      <div>
+        <img src={icon} alt='' />
+      </div>
       <div>{count}</div>
-      <div><img src={rateIcon} alt=""/>{currentStat}</div>
-    </div>
+      <div>
+        <img src={rateIcon} alt='' />
+        {currentStat}
+      </div>
+    </OverviewCardContentWrapper>
   );
 };
 
