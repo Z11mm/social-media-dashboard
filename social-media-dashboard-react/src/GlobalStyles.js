@@ -10,4 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Inter', sans-serif;
   }
+
+  main {
+    padding: 2rem 1rem;
+  }
 `;

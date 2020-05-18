@@ -7,12 +7,12 @@ import { GlobalStyle } from './GlobalStyles';
 
 const App = () => {
   return (
-    <div>
+    <main>
       <GlobalStyle />
       <Header />
       <FollowersCardContainer />
       <OverviewCardContainer />
-    </div>
+    </main>
   );
 };
 

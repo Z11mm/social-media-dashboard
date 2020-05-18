@@ -16,5 +16,5 @@ export const OverviewCardContentWrapper = styled.div`
   margin: 0.5rem 0;
   /* text-align:center; */
   line-height: 3.6;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 `
