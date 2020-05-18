@@ -3,7 +3,13 @@ import styled, { css } from 'styled-components';
 export const ToggleWrapper = styled.div`
   margin: 1rem 0;
   display: flex;
-`
+
+  span {
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+  }
+`;
 
 const roundSlider = css`
   border-radius: 34px;
