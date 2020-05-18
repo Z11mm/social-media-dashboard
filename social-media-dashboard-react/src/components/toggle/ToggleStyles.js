@@ -1,5 +1,10 @@
 import styled, { css } from 'styled-components';
 
+export const ToggleWrapper = styled.div`
+  margin: 1rem 0;
+  display: flex;
+`
+
 const roundSlider = css`
   border-radius: 34px;
 
@@ -10,10 +15,9 @@ const roundSlider = css`
 
 export const Label = styled.label`
   position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 25px;
-  margin: 2rem 1rem 3rem;
+  width: 45px;
+  height: 20px;
+  margin-left: auto;
 `;
 
 export const Checkbox = styled.input`
@@ -44,13 +48,12 @@ export const Slider = styled.span`
   &::before {
     position: absolute;
     content: '';
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     left: 3px;
     bottom: 3px;
     background: #fff;
     transition: 0.4s;
-    ${'' /* transform: translateX(24px); */}
   }
   ${roundSlider}
 `;
