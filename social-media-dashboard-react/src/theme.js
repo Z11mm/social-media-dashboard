@@ -8,16 +8,14 @@ const darkDesaturatedBlue = 'hsl(228, 28%, 20%)';
 const desaturatedBlue = 'hsl(228, 34%, 66%)';
 
 export const lightTheme = {
-  background: ${ white },
-  topBackground: ${ veryPaleBlue },
+  body: `linear-gradient(${ veryPaleBlue } 0 %, ${ veryPaleBlue } 10 %, ${ white } 10 %, ${white} 100%)`,
   cardBackground: ${ lightGreyishBlue },
   textDarkGreyBlue: ${ darkGreyishBlue },
   textVeryDarkBlue: ${veryDarkBlue}
 };
   
 export const darkTheme = {
-  background: ${ veryDarkBlue },
-  topBackground: ${ veryDarkBlueTop },
+  body: `linear-gradient(${ veryDarkBlueTop } 0 %, ${ veryDarkBlueTop } 10 %, ${ veryDarkBlue } 10 %, ${veryDarkBlue} 100%)`,
   cardBackground: ${ darkDesaturatedBlue },
   textDesaturatedBlue: ${ desaturatedBlue },
   textWhite: ${white}

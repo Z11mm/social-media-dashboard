@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FollowersCardWrapper, Content } from './FollowersStyles';
+import { FollowersCardWrapper, Content, Handle } from './FollowersStyles';
 
 const FollowersCard = ({
   handle,
@@ -14,12 +14,15 @@ const FollowersCard = ({
     <FollowersCardWrapper color={color.borderImage}>
       <Content>
         <img src={icon} alt='' />
-        {handle}
+        <Handle>{handle}</Handle>
       </Content>
-      <Content>{followerCount} followers</Content>
+      <Content>
+        <span>{followerCount}</span>
+        <p>followers</p>
+      </Content>
       <Content>
         <img src={rateIcon} alt='' />
-        {currentStat} Today
+        <span>{currentStat} Today</span>
       </Content>
     </FollowersCardWrapper>
   );

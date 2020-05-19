@@ -16,3 +16,7 @@ export const FollowersCardWrapper = styled.div`
 export const Content = styled.div`
   padding: 0.5rem 0;
 `
+
+export const Handle = styled.span`
+  font-size: 14px;
+`
