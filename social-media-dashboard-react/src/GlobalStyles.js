@@ -9,6 +9,11 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: ${({ theme }) => theme.body};
+    ${'' /* color: ${({ theme }) => theme.toggleBackground} */}
   }
 
   main {
