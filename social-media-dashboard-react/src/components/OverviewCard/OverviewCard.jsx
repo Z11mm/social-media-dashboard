@@ -1,19 +1,22 @@
 import React from 'react';
 
-import { OverviewCardContentWrapper } from './OverviewStyles';
+import { OverviewCardContentWrapper, OverviewContent, OverviewCount } from './OverviewStyles';
+import { Stat } from '../FollowersCard/FollowersStyles';
 
-const OverviewCard = ({ type, count, currentStat, icon, rateIcon }) => {
+const OverviewCard = ({ type, count, currentStat, icon, rateIcon, rateColor }) => {
   return (
     <OverviewCardContentWrapper>
-      <div>{type}</div>
-      <div>
+      <OverviewContent>{type}</OverviewContent>
+      <OverviewContent>
         <img src={icon} alt='' />
-      </div>
-      <div>{count}</div>
-      <div>
+      </OverviewContent>
+      <OverviewContent>
+        <OverviewCount>{count}</OverviewCount>
+      </OverviewContent>
+      <OverviewContent>
         <img src={rateIcon} alt='' />
-        {currentStat}
-      </div>
+        <Stat rateColor={rateColor}>{currentStat}</Stat>
+      </OverviewContent>
     </OverviewCardContentWrapper>
   );
 };

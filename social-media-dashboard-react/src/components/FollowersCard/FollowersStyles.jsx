@@ -25,6 +25,12 @@ export const Content = styled.div`
     padding: 1rem 0;
   }
 
+  :nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   p {
     text-transform: uppercase;
     letter-spacing: 0.3em;

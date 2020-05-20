@@ -2,7 +2,7 @@ import React from 'react';
 import OverviewCard from './OverviewCard';
 
 import icons from '../icons';
-import { Section, OverviewCardWrapper } from './OverviewStyles';
+import { Section, OverviewCardWrapper, H2 } from './OverviewStyles';
 
 const OverviewCardContainer = () => {
   const {
@@ -17,7 +17,7 @@ const OverviewCardContainer = () => {
   return (
     <Section>
       <div>
-        <h2>Overview - Today</h2>
+        <H2>Overview - Today</H2>
       </div>
       <OverviewCardWrapper>
         <OverviewCard
@@ -26,6 +26,7 @@ const OverviewCardContainer = () => {
           currentStat={'3%'}
           icon={facebookIcon}
           rateIcon={riseIcon}
+          rateColor={'hsl(163, 72%, 41%)'}
         />
         <OverviewCard
           type={'Likes'}
@@ -33,6 +34,7 @@ const OverviewCardContainer = () => {
           currentStat={'2%'}
           icon={facebookIcon}
           rateIcon={fallIcon}
+          rateColor={'hsl(356, 69%, 56%)'}
         />
         <OverviewCard
           type={'Likes'}
@@ -40,6 +42,7 @@ const OverviewCardContainer = () => {
           currentStat={'2257%'}
           icon={instagramIcon}
           rateIcon={riseIcon}
+          rateColor={'hsl(163, 72%, 41%)'}
         />
         <OverviewCard
           type={'Profile Views'}
@@ -47,6 +50,7 @@ const OverviewCardContainer = () => {
           currentStat={'1375%'}
           icon={instagramIcon}
           rateIcon={riseIcon}
+          rateColor={'hsl(163, 72%, 41%)'}
         />
         <OverviewCard
           type={'Retweets'}
@@ -54,6 +58,7 @@ const OverviewCardContainer = () => {
           currentStat={'303%'}
           icon={twitterIcon}
           rateIcon={riseIcon}
+          rateColor={'hsl(163, 72%, 41%)'}
         />
         <OverviewCard
           type={'Likes'}
@@ -61,6 +66,7 @@ const OverviewCardContainer = () => {
           currentStat={'553%'}
           icon={twitterIcon}
           rateIcon={riseIcon}
+          rateColor={'hsl(163, 72%, 41%)'}
         />
         <OverviewCard
           type={'Likes'}
@@ -68,6 +74,7 @@ const OverviewCardContainer = () => {
           currentStat={'19%'}
           icon={youtubeIcon}
           rateIcon={fallIcon}
+          rateColor={'hsl(356, 69%, 56%)'}
         />
         <OverviewCard
           type={'Total Views'}
@@ -75,6 +82,7 @@ const OverviewCardContainer = () => {
           currentStat={'12%'}
           icon={youtubeIcon}
           rateIcon={fallIcon}
+          rateColor={'hsl(356, 69%, 56%)'}
         />
       </OverviewCardWrapper>
     </Section>
