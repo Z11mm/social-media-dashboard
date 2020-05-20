@@ -14,7 +14,10 @@ export const OverviewCardContentWrapper = styled.div`
   grid-template-columns: repeat(2, 1fr);
   padding: 0.5rem;
   margin: 0.5rem 0;
-  /* text-align:center; */
   line-height: 3.6;
   border: 1px solid black;
+
+  div:nth-child(2n) {
+    justify-self: end;
+  }
 `
