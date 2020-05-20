@@ -10,7 +10,7 @@ const veryDarkBlueTop = 'hsl(232, 19%, 15%)';
 
 export const lightTheme = {
   body:
-    'linear-gradient(hsl(225, 100%, 98%))',
+    'linear-gradient(hsl(225, 100%, 98%) 0%, hsl(225, 100%, 98%) 10%, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 100%) 100%)',
   cardBackground: 'hsl(227, 47%, 96%)',
   textDarkGreyBlue: 'hsl(228, 12%, 44%)',
   textVeryDarkBlue: 'hsl(230, 17%, 14%)',
@@ -18,7 +18,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: `linear-gradient(${veryDarkBlueTop} 0 %, ${veryDarkBlueTop} 10 %, ${veryDarkBlue} 10 %, ${veryDarkBlue} 100%)`,
+  body: `linear-gradient(hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 10%, hsl(230, 17%, 14%) 10%, hsl(230, 17%, 14%) 100%)`,
   cardBackground: 'hsl(228, 28%, 20%)',
   textDesaturatedBlue: 'hsl(228, 34%, 66%)',
   textWhite: 'hsl(0, 0 %, 100 %)',
