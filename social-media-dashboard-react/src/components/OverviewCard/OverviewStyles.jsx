@@ -12,15 +12,17 @@ export const H2 = styled.h2`
 export const OverviewCardWrapper = styled.div`
   display: flex;
   flex-flow: column wrap;
+  padding-top: 1rem;
 `;
 
 export const OverviewCardContentWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
   margin: 0.5rem 0;
-  line-height: 3.6;
-  border: 1px solid black;
+  line-height: 3.0;
+  border-radius: 10px;
+  background: ${({ theme }) => theme.cardBackground};
 
   div:nth-child(2n) {
     justify-self: end;
