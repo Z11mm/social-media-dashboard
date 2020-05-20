@@ -22,6 +22,7 @@ const FollowersCardContainer = () => {
         currentStat={12}
         icon={facebookIcon}
         rateIcon={riseIcon}
+        rateColor='hsl(163, 72%, 41%)'
         color={{ borderImage: 'hsl(195, 100%, 50%)' }}
       />
       <FollowersCard
@@ -30,6 +31,7 @@ const FollowersCardContainer = () => {
         currentStat={99}
         icon={twitterIcon}
         rateIcon={riseIcon}
+        rateColor='hsl(163, 72%, 41%)'
         color={{ borderImage: 'hsl(203, 89%, 53%)' }}
       />
       <FollowersCard
@@ -38,6 +40,7 @@ const FollowersCardContainer = () => {
         currentStat={1099}
         icon={instagramIcon}
         rateIcon={riseIcon}
+        rateColor='hsl(163, 72%, 41%)'
         color=''
       />
       <FollowersCard
@@ -46,6 +49,7 @@ const FollowersCardContainer = () => {
         currentStat={144}
         icon={youtubeIcon}
         rateIcon={fallIcon}
+        rateColor='hsl(356, 69%, 56%)'
         color={{ borderImage: 'hsl(348, 97%, 39%)' }}
       />
     </Section>

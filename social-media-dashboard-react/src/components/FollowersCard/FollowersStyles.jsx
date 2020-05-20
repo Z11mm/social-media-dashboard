@@ -14,9 +14,40 @@ export const FollowersCardWrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  padding: 0.5rem 0;
-`
+  :first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  :nth-child(2) {
+    line-height: 1.2;
+    padding: 1rem 0;
+  }
+
+  p {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: ${({ theme }) => theme.text};
+    font-size: 14px;
+  }
+`;
 
 export const Handle = styled.span`
-  font-size: 14px;
-`
+  font-size: 12px;
+  color: ${({ theme }) => theme.text};
+  font-weight: 700;
+  padding-left: 0.5em;
+`;
+
+export const Count = styled.span`
+  color: ${({ theme }) => theme.figures};
+  font-size: 54px;
+  font-weight: 700;
+`;
+
+export const Stat = styled.span`
+  color: ${props => props.rateColor};
+  font-size: 12px;
+  font-weight: 700;
+`;

@@ -1,19 +1,9 @@
-const white = 'hsl(0, 0 %, 100 %)';
-const veryPaleBlue = 'hsl(225, 100%, 98%)';
-// const lightGreyishBlue = 'hsl(227, 47%, 96%)';
-// const darkGreyishBlue = 'hsl(228, 12%, 44%)';
-const veryDarkBlue = 'hsl(230, 17%, 14%)';
-const veryDarkBlueTop = 'hsl(232, 19%, 15%)';
-// const darkDesaturatedBlue = 'hsl(228, 28%, 20%)';
-// const desaturatedBlue = 'hsl(228, 34%, 66%)';
-// const toggleBackground = 'hsl(230, 22%, 74%)'
-
 export const lightTheme = {
   body:
     'linear-gradient(hsl(225, 100%, 98%) 0%, hsl(225, 100%, 98%) 10%, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 100%) 100%)',
   cardBackground: 'hsl(227, 47%, 96%)',
-  textDarkGreyBlue: 'hsl(228, 12%, 44%)',
-  textVeryDarkBlue: 'hsl(230, 17%, 14%)',
+  text: 'hsl(228, 12%, 44%)',
+  figures: 'hsl(230, 17%, 14%)',
   toggleBackground: 'hsl(230, 22%, 74%)'
 };
 
