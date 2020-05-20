@@ -41,7 +41,9 @@ const FollowersCardContainer = () => {
         icon={instagramIcon}
         rateIcon={riseIcon}
         rateColor='hsl(163, 72%, 41%)'
-        color=''
+        color={{
+          borderImage: 'linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1'
+        }}
       />
       <FollowersCard
         handle={'Nathan F.'}

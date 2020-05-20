@@ -3,14 +3,20 @@ import styled from 'styled-components';
 export const Section = styled.section`
   display: flex;
   flex-flow: column wrap;
+
+  /* :nth-child(3) {
+    border-image: ${props => props.color};
+  } */
 `;
 
 export const FollowersCardWrapper = styled.div`
-  border-top: 3px solid ${props => props.color};
+  border-top: 4px solid ${props => props.color};
+  border-radius: 6px;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1.4rem 0;
   line-height: 1.6;
   margin: 1rem 0;
+  background: ${({theme}) => theme.cardBackground};
 `;
 
 export const Content = styled.div`
