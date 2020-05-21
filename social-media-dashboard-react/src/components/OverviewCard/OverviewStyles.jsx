@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Count } from '../FollowersCard/FollowersStyles';
+// import { Count } from '../FollowersCard/FollowersStyles';
 
 export const Section = styled.section`
   display: flex;
@@ -20,7 +20,7 @@ export const OverviewCardContentWrapper = styled.div`
   grid-template-columns: repeat(2, 1fr);
   padding: 0.5rem 1.5rem;
   margin: 0.5rem 0;
-  line-height: 3.0;
+  line-height: 3;
   border-radius: 10px;
   background: ${({ theme }) => theme.cardBackground};
 
@@ -41,7 +41,9 @@ export const OverviewContent = styled.div`
   }
 `;
 
-export const OverviewCount = styled(Count)`
+export const OverviewCount = styled.span`
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.2;
-`
+  color: ${({ theme }) => theme.figures};
+`;

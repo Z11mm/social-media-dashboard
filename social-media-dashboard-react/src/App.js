@@ -4,6 +4,8 @@ import { ThemeProvider } from 'styled-components';
 import FollowersCardContainer from './components/FollowersCard/FollowersCardContainer';
 import OverviewCardContainer from './components/OverviewCard/OverviewCardContainer';
 import Header from './components/header/Header';
+import Toggle from './components/toggle/Toggle';
+
 import { GlobalStyle } from './GlobalStyles';
 import { lightTheme, darkTheme } from './theme';
 
@@ -16,13 +18,15 @@ const App = () => {
     } else {
       setTheme('light');
     }
+    // console.log('clidk')
   };
 
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <main>
         <GlobalStyle />
-        <Header themeSwitcher={themeSwitch} />
+        <Header />
+        <Toggle themeSwitch={themeSwitch} />
         <FollowersCardContainer />
         <OverviewCardContainer />
       </main>
