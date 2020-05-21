@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import FollowersCardContainer from './components/FollowersCard/FollowersCardContainer';
@@ -8,11 +8,21 @@ import { GlobalStyle } from './GlobalStyles';
 import { lightTheme, darkTheme } from './theme';
 
 const App = () => {
+  const [theme, setTheme] = useState('light');
+
+  const themeSwitch = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <main>
         <GlobalStyle />
-        <Header />
+        <Header themeSwitcher={themeSwitch} />
         <FollowersCardContainer />
         <OverviewCardContainer />
       </main>
