@@ -8,7 +8,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: `radial-gradient(circle at top, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 10%, hsl(230, 17%, 14%) 10%, hsl(230, 17%, 14%) 100%)`,
+  body: `radial-gradient(circle at top, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 12%, hsl(230, 17%, 14%) 12%, hsl(230, 17%, 14%) 100%)`,
   cardBackground: 'hsl(228, 28%, 20%)',
   text: 'hsl(228, 34%, 66%)',
   figures: 'hsl(0, 0%, 100%)',
