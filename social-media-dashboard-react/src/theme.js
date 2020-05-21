@@ -8,9 +8,9 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: `radial-gradient(150px 40px at 195px top, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 10%, hsl(230, 17%, 14%) 10%, hsl(230, 17%, 14%) 100%)`,
+  body: `radial-gradient(circle at top, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 10%, hsl(230, 17%, 14%) 10%, hsl(230, 17%, 14%) 100%)`,
   cardBackground: 'hsl(228, 28%, 20%)',
-  textDesaturatedBlue: 'hsl(228, 34%, 66%)',
-  textWhite: 'hsl(0, 0 %, 100 %)',
+  text: 'hsl(228, 34%, 66%)',
+  figures: 'hsl(0, 0 %, 100 %)',
   toggleBackground: 'linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%))'
 };
