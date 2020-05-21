@@ -21,8 +21,8 @@ const roundSlider = css`
 
 export const Label = styled.label`
   position: relative;
-  width: 45px;
-  height: 20px;
+  width: 48px;
+  height: 24px;
   margin-left: auto;
 `;
 
@@ -54,8 +54,8 @@ export const Slider = styled.span`
   &::before {
     position: absolute;
     content: '';
-    height: 15px;
-    width: 15px;
+    height: 19px;
+    width: 19px;
     right: 3px;
     bottom: 3px;
     background: #fff;
