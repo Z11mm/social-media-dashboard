@@ -31,13 +31,13 @@ export const Checkbox = styled.input`
   width: 0;
   height: 0;
 
-  &:checked {
+  /* &:checked {
     background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     transform: translateX(24px);
-  }
+  } */
 
   &:checked + .slider::before {
-    transform: translateX(24px);
+    transform: translateX(-24px);
   }
 `;
 
@@ -48,7 +48,7 @@ export const Slider = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background: hsl(230, 22%, 74%);
+  background: ${({ theme }) => theme.toggleBackground};
   transition: 0.4s;
 
   &::before {
@@ -56,7 +56,7 @@ export const Slider = styled.span`
     content: '';
     height: 15px;
     width: 15px;
-    left: 3px;
+    right: 3px;
     bottom: 3px;
     background: #fff;
     transition: 0.4s;
