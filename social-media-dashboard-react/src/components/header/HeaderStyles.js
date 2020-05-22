@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const HeaderBlock = styled.header`
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 800px) {
+    position: relative;
+  }
 `;
 
 export const Heading = styled.div`
@@ -12,6 +16,10 @@ export const Heading = styled.div`
 
   h2 {
     color: ${({ theme }) => theme.figures};
+  }
+
+  @media screen and (min-width: 800px) {
+    border-bottom: none;
   }
 `;
 

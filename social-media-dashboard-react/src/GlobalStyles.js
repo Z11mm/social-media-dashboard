@@ -13,10 +13,13 @@ export const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     width: 100%;
     background: ${({ theme }) => theme.body};
-    ${'' /* color: ${({ theme }) => theme.toggleBackground} */}
   }
 
   main {
     padding: 2rem 1.5rem;
+
+    @media screen and (min-width: 800px) {
+      padding: 2rem 8rem;
+    }
   }
 `;

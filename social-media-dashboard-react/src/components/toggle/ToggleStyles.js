@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const ToggleWrapper = styled.div`
+export const ToggleWrapper = styled.span`
   margin: 1rem 0;
   display: flex;
 
@@ -8,6 +8,12 @@ export const ToggleWrapper = styled.div`
     font-size: 14px;
     font-weight: 700;
     color: hsl(228, 12%, 44%);
+  }
+
+  @media screen and (min-width: 800px) {
+    position: absolute;
+    top: 40px;
+    right: 8rem;
   }
 `;
 
@@ -24,6 +30,10 @@ export const Label = styled.label`
   width: 48px;
   height: 24px;
   margin-left: auto;
+
+  @media screen and (min-width: 800px) {
+    margin: 0;
+  }
 `;
 
 export const Checkbox = styled.input`

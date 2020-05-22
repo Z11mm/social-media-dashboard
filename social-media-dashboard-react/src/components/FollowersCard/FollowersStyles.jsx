@@ -4,9 +4,10 @@ export const Section = styled.section`
   display: flex;
   flex-flow: column wrap;
 
-  /* :nth-child(3) {
-    border-image: ${props => props.color};
-  } */
+  @media screen and (min-width: 800px) {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 `;
 
 export const FollowersCardWrapper = styled.div`
@@ -16,7 +17,13 @@ export const FollowersCardWrapper = styled.div`
   padding: 1.4rem 0;
   line-height: 1.6;
   margin: 1rem 0;
-  background: ${({theme}) => theme.cardBackground};
+  background: ${({ theme }) => theme.cardBackground};
+
+  /* @media screen and (min-width: 800px) {
+    padding: 1.4rem 0;
+  line-height: 1.6;
+  margin: 1rem 0;
+  } */
 `;
 
 export const Content = styled.div`
