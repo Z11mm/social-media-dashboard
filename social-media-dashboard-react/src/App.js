@@ -18,7 +18,6 @@ const App = () => {
     } else {
       setTheme('light');
     }
-    // console.log('clidk')
   };
 
   return (

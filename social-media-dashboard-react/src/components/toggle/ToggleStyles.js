@@ -41,11 +41,6 @@ export const Checkbox = styled.input`
   width: 0;
   height: 0;
 
-  /* &:checked {
-    background: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-    transform: translateX(24px);
-  } */
-
   &:checked + .slider::before {
     transform: translateX(-24px);
   }
