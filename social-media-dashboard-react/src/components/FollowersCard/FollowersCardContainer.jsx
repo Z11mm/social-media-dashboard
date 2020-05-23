@@ -23,7 +23,7 @@ const FollowersCardContainer = () => {
         icon={facebookIcon}
         rateIcon={riseIcon}
         rateColor='hsl(163, 72%, 41%)'
-        color={{ borderImage: 'hsl(195, 100%, 50%)' }}
+        color={'hsl(195, 100%, 50%)'}
       />
       <FollowersCard
         handle={'@nathanf'}
@@ -32,7 +32,7 @@ const FollowersCardContainer = () => {
         icon={twitterIcon}
         rateIcon={riseIcon}
         rateColor='hsl(163, 72%, 41%)'
-        color={{ borderImage: 'hsl(203, 89%, 53%)' }}
+        color={'hsl(203, 89%, 53%)'}
       />
       <FollowersCard
         handle={'@realnathanf'}
@@ -41,9 +41,7 @@ const FollowersCardContainer = () => {
         icon={instagramIcon}
         rateIcon={riseIcon}
         rateColor='hsl(163, 72%, 41%)'
-        color={{
-          borderImage: 'linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1'
-        }}
+        color={'linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))'}
       />
       <FollowersCard
         handle={'Nathan F.'}
@@ -52,7 +50,7 @@ const FollowersCardContainer = () => {
         icon={youtubeIcon}
         rateIcon={fallIcon}
         rateColor='hsl(356, 69%, 56%)'
-        color={{ borderImage: 'hsl(348, 97%, 39%)' }}
+        color={'hsl(348, 97%, 39%)'}
       />
     </Section>
   );

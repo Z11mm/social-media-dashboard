@@ -18,7 +18,7 @@ const FollowersCard = ({
   color
 }) => {
   return (
-    <FollowersCardWrapper color={color.borderImage}>
+    <FollowersCardWrapper color={color}>
       <Content>
         <img src={icon} alt='' />
         <Handle>{handle}</Handle>

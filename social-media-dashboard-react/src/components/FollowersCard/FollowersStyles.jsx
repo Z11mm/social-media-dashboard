@@ -14,13 +14,26 @@ export const Section = styled.section`
 export const FollowersCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  border-top: 4px solid ${props => props.color};
   border-radius: 6px;
   text-align: center;
   padding: 1.4rem 0;
   line-height: 1.6;
   margin: 1rem 0;
   background: ${({ theme }) => theme.cardBackground};
+  position: relative;
+  width: 100%;
+
+  ::before {
+    border-radius: 6px;
+    content: '';
+    background: ${props => props.color};
+    width: 100%;
+    height: 100%;
+    top: -4px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+  }
 `;
 
 export const Content = styled.div`
