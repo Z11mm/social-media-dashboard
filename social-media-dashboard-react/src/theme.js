@@ -2,7 +2,7 @@ export const lightTheme = {
   body:
     'linear-gradient(to bottom, hsl(225, 100%, 98%) 0%, hsl(225, 100%, 98%) 10%, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 100%) 100%)',
   bodyDesktop:
-    'linear-gradient(to bottom, hsl(225, 100%, 98%) 0%, hsl(225, 100%, 98%) 41%, hsl(0, 0%, 100%) 41%, hsl(0, 0%, 100%) 100%)',
+    'linear-gradient(to bottom, hsl(225, 100%, 98%) 0%, hsl(225, 100%, 98%) 28%, hsl(0, 0%, 100%) 28%, hsl(0, 0%, 100%) 100%)',
   cardBackground: 'hsl(227, 47%, 96%)',
   text: 'hsl(228, 10%, 44%)',
   figures: 'hsl(230, 17%, 14%)',
@@ -11,7 +11,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   body: `linear-gradient(to bottom, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 10%, hsl(230, 17%, 14%) 10%, hsl(230, 17%, 14%) 100%)`,
-  bodyDesktop: `linear-gradient(to bottom, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 41%, hsl(230, 17%, 14%) 41%, hsl(230, 17%, 14%) 100%)`,
+  bodyDesktop: `linear-gradient(to bottom, hsl(232, 19%, 15%) 0%, hsl(232, 19%, 15%) 28%, hsl(230, 17%, 14%) 28%, hsl(230, 17%, 14%) 100%)`,
   cardBackground: 'hsl(228, 28%, 20%)',
   text: 'hsl(228, 34%, 66%)',
   figures: 'hsl(0, 0%, 100%)',
