@@ -32,7 +32,8 @@ export const Label = styled.label`
   margin-left: auto;
 
   @media screen and (min-width: 800px) {
-    margin: 0;
+    margin-left: 1em;
+    top: -4px;
   }
 `;
 
