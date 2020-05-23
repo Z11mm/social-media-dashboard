@@ -24,16 +24,18 @@ export const FollowersCardWrapper = styled.div`
   position: relative;
   width: 100%;
 
-  ::before {
-    border-radius: 13px;
-    content: '';
-    background: ${props => props.color};
-    width: 100%;
-    height: 100%;
-    top: -4px;
-    left: 0px;
-    position: absolute;
-    z-index: -1;
+  @media screen and (min-width: 800px) {
+    ::before {
+      border-radius: 13px;
+      content: '';
+      background: ${props => props.color};
+      width: 100%;
+      height: 100%;
+      top: -4px;
+      left: 0px;
+      position: absolute;
+      z-index: -1;
+    }
   }
 `;
 
