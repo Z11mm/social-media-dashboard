@@ -25,7 +25,7 @@ export const FollowersCardWrapper = styled.div`
   width: 100%;
 
   ::before {
-    border-radius: 6px;
+    border-radius: 13px;
     content: '';
     background: ${props => props.color};
     width: 100%;
@@ -80,4 +80,5 @@ export const Stat = styled.span`
   color: ${props => props.rateColor};
   font-size: 12px;
   font-weight: 700;
+  margin-left: 0.3em;
 `;
