@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     width: 100%;
     background: ${({ theme }) => theme.body};
+
+    @media screen and (min-width: 800px) {
+      height: 100vh;
+    }
   }
 
   main {
