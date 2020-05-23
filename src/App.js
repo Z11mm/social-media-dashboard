@@ -5,6 +5,7 @@ import FollowersCardContainer from './components/FollowersCard/FollowersCardCont
 import OverviewCardContainer from './components/OverviewCard/OverviewCardContainer';
 import Header from './components/header/Header';
 import Toggle from './components/toggle/Toggle';
+import Footnote from './components/footer/Footnote'
 
 import { GlobalStyle } from './GlobalStyles';
 import { lightTheme, darkTheme } from './theme';
@@ -28,6 +29,7 @@ const App = () => {
         <Toggle themeSwitch={themeSwitch} />
         <FollowersCardContainer />
         <OverviewCardContainer />
+        <Footnote />
       </main>
     </ThemeProvider>
   );
