@@ -8,6 +8,7 @@ export const Section = styled.section`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 2rem;
+    margin-top: 2rem;
   }
 `;
 

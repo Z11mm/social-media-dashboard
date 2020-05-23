@@ -6,6 +6,7 @@ export const Section = styled.section`
 `;
 export const H2 = styled.h2`
   color: ${({ theme }) => theme.text};
+  margin-top: 2rem;
 `;
 
 export const OverviewCardWrapper = styled.div`
