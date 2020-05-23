@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { Count } from '../FollowersCard/FollowersStyles';
 
 export const Section = styled.section`
   display: flex;
