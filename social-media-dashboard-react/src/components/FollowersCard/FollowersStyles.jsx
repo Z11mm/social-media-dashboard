@@ -21,10 +21,6 @@ export const FollowersCardWrapper = styled.div`
   line-height: 1.6;
   margin: 1rem 0;
   background: ${({ theme }) => theme.cardBackground};
-
-  /* @media screen and (min-width: 800px) {
-      padding: 1.4rem 1rem;
-  } */
 `;
 
 export const Content = styled.div`

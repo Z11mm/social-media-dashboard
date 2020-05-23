@@ -13,6 +13,12 @@ export const OverviewCardWrapper = styled.div`
   display: flex;
   flex-flow: column wrap;
   padding-top: 1rem;
+
+  @media screen and (min-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+  }
 `;
 
 export const OverviewCardContentWrapper = styled.div`
