@@ -60,8 +60,8 @@ export const Slider = styled.span`
   &::before {
     position: absolute;
     content: '';
-    height: 19px;
-    width: 19px;
+    height: 18px;
+    width: 18px;
     right: 3px;
     bottom: 3px;
     background: #fff;
