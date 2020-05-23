@@ -5,12 +5,15 @@ export const Section = styled.section`
   flex-flow: column wrap;
 
   @media screen and (min-width: 800px) {
-    flex-flow: row wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
   }
 `;
 
 export const FollowersCardWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   border-top: 4px solid ${props => props.color};
   border-radius: 6px;
   text-align: center;
@@ -20,9 +23,7 @@ export const FollowersCardWrapper = styled.div`
   background: ${({ theme }) => theme.cardBackground};
 
   /* @media screen and (min-width: 800px) {
-    padding: 1.4rem 0;
-  line-height: 1.6;
-  margin: 1rem 0;
+      padding: 1.4rem 1rem;
   } */
 `;
 
