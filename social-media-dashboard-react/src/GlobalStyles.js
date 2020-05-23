@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
     @media screen and (min-width: 800px) {
       height: 100vh;
+      background: ${({ theme }) => theme.bodyDesktop};
     }
   }
 
