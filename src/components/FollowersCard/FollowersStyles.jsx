@@ -28,7 +28,7 @@ export const FollowersCardWrapper = styled.div`
     ::before {
       border-radius: 13px;
       content: '';
-      background: ${props => props.color};
+      background: ${props => props.cardColor};
       width: 100%;
       height: 100%;
       top: -4px;

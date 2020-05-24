@@ -15,10 +15,10 @@ const FollowersCard = ({
   icon,
   rateIcon,
   rateColor,
-  color
+  cardColor
 }) => {
   return (
-    <FollowersCardWrapper color={color}>
+    <FollowersCardWrapper cardColor={cardColor}>
       <Content>
         <img src={icon} alt='' />
         <Handle>{handle}</Handle>
