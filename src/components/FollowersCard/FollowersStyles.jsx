@@ -24,6 +24,11 @@ export const FollowersCardWrapper = styled.div`
   position: relative;
   width: 100%;
 
+  :hover {
+    background: hsl(230, 22%, 90%);
+    cursor: pointer;
+  }
+
   @media screen and (min-width: 800px) {
     ::before {
       border-radius: 13px;

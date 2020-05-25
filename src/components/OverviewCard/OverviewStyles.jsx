@@ -33,7 +33,13 @@ export const OverviewCardContentWrapper = styled.div`
   div:nth-child(2n) {
     justify-self: end;
   }
+
+  :hover {
+    background: hsl(230, 22%, 90%);
+    cursor: pointer;
+  }
 `;
+
 export const OverviewContent = styled.div`
   :first-child {
     color: ${({ theme }) => theme.text};
