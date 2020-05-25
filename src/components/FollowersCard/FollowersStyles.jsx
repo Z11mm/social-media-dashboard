@@ -24,6 +24,7 @@ export const FollowersCardWrapper = styled.div`
   position: relative;
   width: 100%;
 
+
   ::before {
     border-radius: 13px;
     content: '';
