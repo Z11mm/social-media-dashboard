@@ -35,7 +35,7 @@ export const OverviewCardContentWrapper = styled.div`
   }
 
   :hover {
-    background: hsl(230, 22%, 90%);
+    filter: contrast(90%);
     cursor: pointer;
   }
 `;

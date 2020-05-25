@@ -15,7 +15,7 @@ export const Section = styled.section`
 export const FollowersCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  border-radius: 6px;
+  border-radius: 4px;
   text-align: center;
   padding: 1.4rem 0;
   line-height: 1.6;
@@ -24,23 +24,16 @@ export const FollowersCardWrapper = styled.div`
   position: relative;
   width: 100%;
 
-  :hover {
-    background: hsl(230, 22%, 90%);
-    cursor: pointer;
-  }
-
-  @media screen and (min-width: 800px) {
-    ::before {
-      border-radius: 13px;
-      content: '';
-      background: ${props => props.cardColor};
-      width: 100%;
-      height: 100%;
-      top: -4px;
-      left: 0px;
-      position: absolute;
-      z-index: -1;
-    }
+  ::before {
+    border-radius: 13px;
+    content: '';
+    background: ${props => props.cardColor};
+    width: 100%;
+    height: 5%;
+    top: -4px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
   }
 `;
 
@@ -88,4 +81,15 @@ export const Stat = styled.span`
   font-size: 12px;
   font-weight: 700;
   margin-left: 0.3em;
+`;
+
+export const HoverTint = styled.div`
+  width: 100%;
+  height: 100%;
+  background: ${({ theme }) => theme.cardBackground};
+
+  :hover {
+    filter: contrast(90%);
+    cursor: pointer;
+  }
 `;
