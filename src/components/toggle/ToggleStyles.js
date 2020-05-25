@@ -67,5 +67,10 @@ export const Slider = styled.span`
     background: #fff;
     transition: 0.4s;
   }
+
+  &:hover {
+    background: linear-gradient(to top right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  }
+
   ${roundSlider}
 `;
